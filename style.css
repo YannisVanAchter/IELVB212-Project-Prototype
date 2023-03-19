@@ -9,7 +9,7 @@ body {
     text-decoration: none;
     text-align: center;
     background-color: #adff2f;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0rem 2rem 0rem 2rem;
 }
 
@@ -29,18 +29,18 @@ footer {
 
 h1, h2, h3, h4, h5, h6{
     margin: 0%;
-    font-size: 2.25rem;
+    font-size: 2.125rem;
 }
 
 /** Nav theme */
 nav > a {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 nav > a + a {
-    margin-left: 1.5rem;
+    margin-left: 1.25rem;
 }
 
 /** Beer theme */
@@ -82,7 +82,7 @@ p {
 .IMPORTANT {
     background-color: red;
     font-weight: bold;
-    font-size: 2.25rem;
+    font-size: 2.125rem;
 }
 
 button {
