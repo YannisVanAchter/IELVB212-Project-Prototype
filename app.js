@@ -18,6 +18,9 @@ function main() {
         // red #ff2f2f
         body.style.background = "#ff2f2f";
     }
+
+    var span = document.querySelector("span");
+    span.innerHTML = nb_beers;
 }
 
 main();
