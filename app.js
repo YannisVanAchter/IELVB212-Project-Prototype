@@ -1,25 +1,28 @@
 var nb_beers = 0;
 function main() {
-    var html = document.getElementsByTagName("body");
+    var body = document.body;
 
-    if (nb_beers == 0) {
+    if (nb_beers === 0) {
         // green #adff2f
-        
+        body.style.background = "#adff2f";
     }
-    else if (nb_beers >= 3) {
+    if (nb_beers >= 3) {
         // yellow #ffe72f
+        body.style.background = "#ffe72f";
     }
-    else if (nb_beers >= 5) {
+    if (nb_beers >= 5) {
         // orange #ffa52f
+        body.style.background = "#ffa52f";
     }
-    else if (nb_beers >= 7) {
+    if (nb_beers >= 7) {
         // red #ff2f2f
+        body.style.background = "#ff2f2f";
     }
 }
 
 main();
 
-document.getElementsById("container-button").addEventListener("click", function(e) {
+document.getElementById("container-button").addEventListener("click", function(e) {
     nb_beers++;
     console.log(nb_beers);
     main();
