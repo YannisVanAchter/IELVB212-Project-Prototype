@@ -22,4 +22,5 @@ main();
 document.getElementsById("container-button").addEventListener("click", function(e) {
     nb_beers++;
     console.log(nb_beers);
+    main();
 })

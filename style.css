@@ -51,7 +51,7 @@ img{
 }
 
 .leffe{
-    background-color: yellow; 
+    background-color: rgb(160, 160, 0); 
 }
 
 .chimay {
@@ -63,15 +63,15 @@ img{
 }
 
 .jupiler {
-    background-color: pink;
+    background-color: rgb(184, 138, 145);
 }
 
 .kasteel {
-    background-color: orange;
+    background-color: rgb(188, 122, 0);
 }
 
 .maes {
-    background-color: purple;
+    background-color: rgb(119, 119, 119);
 }
 
 p {
