@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:description" content="Little app to answer the questions: Are you able to drive with this alcohol in your blood ?" />
-        <title>Drunk or drive</title>
-        <link rel="icon" href="./alcohol.png" />
-        <link rel="stylesheet" type="text/css" href="./style.css" />
-    </head>
-    <body>
-        <header>
-            <h1>Drunk or drive</h1>
-            <nav>
-                <a href="./index.html">Home</a>
-                <a href="./contact.html">Contact</a>
-            </nav>
-        </header>
-        <main>
-            <div class="container-button">
-                <div class="leffe">
-                    <a type="button"><img src="./leffe.png" alt="Leffe" title="Leffe"/></a>
-                </div>
-                <div class="chimay">
-                    <a type="button"><img src="./Chimay.png" alt="Chimay" title="Chimay"/></a>
-                </div>
-                <div class="desperados">
-                    <a type="button"><img src="./desperados.png" alt="Desperados" title="Desperados"/></a>
-                </div>
-                <div class="jupiler">
-                    <a type="button"><img src="./Jupiler.png" alt="Jupiler" title="Jupiler"/></a>
-                </div>
-                <div class="kasteel">
-                    <a type="button"><img src="./Kasteel.png" alt="Kasteel" title="Kasteel"/></a>
-                </div>
-                <div class="maes">
-                    <a type="button"><img src="./Maes.png" alt="Maes" title="Maes"/></a>
-                </div>
+<meta>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta property="og:description"
+    content="Little app to answer the questions: Are you able to drive with this alcohol in your blood ?" />
+<title>Drunk or drive</title>
+<link rel="icon" href="./alcohol.png" />
+<link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
 
+<body>
+    <header>
+        <h1>Drunk or drive</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div id="container-button">
+            <div class="leffe">
+                <a type="button"><img src="./leffe.png" alt="Leffe" title="Leffe" /></a>
             </div>
-        </main>
-        <footer>
-            <h3>How many beer did I drink ?</h3>
-            <div class="result">
-                <p>You drank <div class="number-beer"></div> beers</p>
+            <div class="chimay">
+                <a type="button"><img src="./Chimay.png" alt="Chimay" title="Chimay" /></a>
             </div>
-        </footer>
-        <script>
+            <div class="desperados">
+                <a type="button"><img src="./desperados.png" alt="Desperados" title="Desperados" /></a>
+            </div>
+            <div class="jupiler">
+                <a type="button"><img src="./Jupiler.png" alt="Jupiler" title="Jupiler" /></a>
+            </div>
+            <div class="kasteel">
+                <a type="button"><img src="./Kasteel.png" alt="Kasteel" title="Kasteel" /></a>
+            </div>
+            <div class="maes">
+                <a type="button"><img src="./Maes.png" alt="Maes" title="Maes" /></a>
+            </div>
 
-        </script>
-
-    </body>
+        </div>
+    </main>
+    <footer>
+        <h2>How many beer did I drink ?</h2>
+        <div class="result">
+            <p>You drink
+               <strong><span class="number-beer"></span></strong> 
+                 beers</p>
+        </div>
+        <button id="make-test">MAKE THE TEST</button>
+    </footer>
+    <script src="./app.js"></script>
+</body>
 </html>

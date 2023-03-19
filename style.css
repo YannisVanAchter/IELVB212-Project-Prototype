@@ -1,26 +1,90 @@
+/** General theme */
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     font-family: Arial;
     text-decoration: none;
     text-align: center;
+    background-color: #adff2f;
+    font-size: 1.1rem;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 0px;
 }
 
 header {
-    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+
+footer {
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0%;
+    font-size: 2.25rem;
+}
+
+/** Nav theme */
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav > a + a {
+    margin-left: 1.5rem;
+}
+
+/** Beer theme */
+img{
+    size: 12px;
+    height: 96px;
+    width: auto;
 }
 
 .leffe{
     background-color: yellow; 
 }
 
-.container-button {
-    margin: 0%;
-    size: 12px;
+.chimay {
+    background-color: rgb(132, 115, 51);
 }
 
-img{
-    size: 12px;
-    float: inline-block;
-    height: 96px;
-    width: auto;
+.desperados {
+    background-color: rgb(132, 51, 51);
 }
 
+.jupiler {
+    background-color: pink;
+}
+
+.kasteel {
+    background-color: orange;
+}
+
+.maes {
+    background-color: purple;
+}
+
+p {
+    font-size: 2rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+
+button {
+    font-size: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: white;
+    background-color: red;
+    border-radius: 2rem;
+    border-color: white;
+    margin-bottom: 1rem;
+}
