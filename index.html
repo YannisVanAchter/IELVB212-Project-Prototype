@@ -1,32 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+    <meta>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:description" content="Little app to answer the questions: Are you able to drive with this alcohol in your blood ?" />
         <title>Drunk or drive</title>
         <link rel="icon" href="./alcohol.png" />
-        <style>
-            html {
-                font-family: Arial;
-                text-decoration: none;
-            }
-
-            .leffe{
-                background-color: yellow; 
-            }
-
-            button {
-                background-color: #4CAF50; /* Green */
-                border: none;
-                color: white;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 64px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="./style.css" />
     </head>
     <body>
         <header>
@@ -39,13 +20,31 @@
         <main>
             <div class="container-button">
                 <div class="leffe">
-                    <img src="./leffe.png" aria-placeholder="Leffe" />
-                    <button type="button">Leffe</button>
+                    <a type="button"><img src="./leffe.png" alt="Leffe" title="Leffe"/></a>
                 </div>
+                <div class="chimay">
+                    <a type="button"><img src="./Chimay.png" alt="Chimay" title="Chimay"/></a>
+                </div>
+                <div class="desperados">
+                    <a type="button"><img src="./desperados.png" alt="Desperados" title="Desperados"/></a>
+                </div>
+                <div class="jupiler">
+                    <a type="button"><img src="./Jupiler.png" alt="Jupiler" title="Jupiler"/></a>
+                </div>
+                <div class="kasteel">
+                    <a type="button"><img src="./Kasteel.png" alt="Kasteel" title="Kasteel"/></a>
+                </div>
+                <div class="maes">
+                    <a type="button"><img src="./Maes.png" alt="Maes" title="Maes"/></a>
+                </div>
+
             </div>
         </main>
         <footer>
-
+            <h3>How many beer did I drink ?</h3>
+            <div class="result">
+                <p>You drank <div class="number-beer"></div> beers</p>
+            </div>
         </footer>
         <script>
 

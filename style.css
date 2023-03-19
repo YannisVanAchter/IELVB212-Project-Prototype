@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.leffe{
+    background-color: yellow; 
+}
+
+.container-button {
+    margin: 0%;
+    size: 12px;
+}
+
+img{
+    size: 12px;
+    float: inline-block;
+    height: 96px;
+    width: auto;
+}
+
